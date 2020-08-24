@@ -109,3 +109,12 @@ ro.surface_flinger.vsync_sf_event_phase_offset_ns=6000000
 
 # Zygote
 persist.device_config.runtime_native.usap_pool_enabled=true
+
+# SticSystem
+persist.sys.qlogd=0
+pm.sleep_mode=1
+debug.sqlite.wal.poolsize=6
+debug.sqlite.journalmode=OFF
+persist.dpm.loglevel=0
+ro.logdumpd.enabled=0
+persist.logd.limit=off
